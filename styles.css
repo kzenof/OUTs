@@ -595,6 +595,15 @@ strong {
   color: #cfcbc3;
 }
 
+.footer__by a {
+  color: inherit;
+  transition: color 0.25s ease;
+}
+
+.footer__by a:hover {
+  color: var(--lime);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(24px);
